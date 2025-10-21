@@ -8,3 +8,4 @@
 4. Ajayi Oluwamayokun Emmanuel 23/0422
 5. Awe Oluwabamishe David 23/1110
 6. Faleye Oluwanifemi Shalom 23/2690
+7. James Rotimi Mathew. 23/2768
