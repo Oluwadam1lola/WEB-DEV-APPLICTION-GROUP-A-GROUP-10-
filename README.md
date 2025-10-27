@@ -10,13 +10,11 @@
 7. Faleye Oluwanifemi Shalom 23/2690
 8. James Rotimi Mathew. 23/2768
 
-markdown
-  Course Enrollment System
 
 A simple web-based application that allows students to enroll in courses and enables administrators to view, manage, and export the enrollment data.
 
 
-Project Breakdown & Team Contribution
+### Project Breakdown & Team Contribution
 
 1. Enrollment View
 Handles the student-facing form where users can register for courses.
@@ -67,7 +65,7 @@ Explained the workflow, structure, and how to run the project.
 - Described each contributor's role. Done by Aina  Oluwafisayo David  23/0799
 
 
-How to Run the Project
+### How to Run the Project
 1. Clone or download the repository.
 2. Import `database.sql` into your MySQL server.
 3. Configure database credentials in `config/config.php`.
@@ -75,7 +73,7 @@ How to Run the Project
 5. Begin registration and management.
 
 
-*Features*
+### Features
 - Real-time student course registration.
 - Admin dashboard with filtering and export.
 - Clean and responsive interface.
