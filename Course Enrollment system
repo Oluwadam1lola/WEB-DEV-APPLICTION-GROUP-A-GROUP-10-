@@ -1,0 +1,87 @@
+Course Enrollment System
+
+A **web-based application** designed to simplify course registration for students and streamline data management for administrators. The system provides a clean, user-friendly interface for enrollment and a secure backend for storing, viewing, and exporting student data.
+
+---
+Features
+
+- **Student Enrollment Form:** Allows students to register for courses easily.  
+- **Admin Dashboard:** Enables administrators to view, filter, and export enrollment data.  
+- **Database Integration:** Securely stores all records using MySQL.  
+- **Responsive Design:** Works smoothly on desktop and mobile devices.  
+- **Data Export:** Allows administrators to export enrollment data for reporting purposes.
+
+
+
+Project Structure & Team Contributions
+
+1. Enrollment View
+Handles the student-facing registration form where users can select courses and submit their information.  
+- Includes input fields such as **Full Name**, **Matric Number**, and **Course Selection
+- Submits data securely using the **POST** method.  
+- Done by: James Rotimi Matthew
+
+---
+
+2. Enrollment Controller
+Processes and validates form submissions before saving them to the database.  
+- Handles **form validation**, **input sanitization**, and **database insertion**.  
+- Ensures secure handling of student data using prepared statements.  
+- Done by: Aberuagba Oluwafimihan Maikudi — 23/2226*  
+
+
+
+ 3. Admin View
+Provides administrators with a dashboard to monitor all enrollments.  
+- Displays submitted data in a tabular format.  
+- Includes filtering by course and total enrollment count per course
+- Done by: Faleye Oluwanifemi Shalom
+
+
+4. Admin Controller
+Manages backend logic for the admin interface.  
+- Fetches, filters, and organizes data for display.  
+- Supports **data export** in CSV or Excel formats.  
+- Done by: Akinbile Oluwadamilola Michael 23/1749
+
+---
+
+5.  Styling
+Provides consistent and responsive styling using CSS
+- Ensures clean, modern design with intuitive navigation.  
+- Optimized for both desktop and mobile users.  
+- Done by: Ajayi Oluwamayokun Emmanuel — 23/0422
+
+
+6. 🗃️ Database (SQL)
+Defines and initializes the database structure.  
+- Includes tables such as:
+  - `enrollments`
+  - `users`
+- Establishes relationships and constraints for efficient data management.  
+-Done by: Agbabiaka Oluwabusayomi Elizabeth — 23/233*  
+
+
+
+ 7.  config.php
+Contains the configuration setup for database connection using **MySQLi**.  
+- Centralized file for defining credentials and establishing database connectivity.  
+- Promotes modularity and maintainability.  
+- **Done by:** *Agbabiaka Oluwabusayomi Elizabeth — 23/233*  
+
+
+
+ 8. 📝 Documentation
+Provides a comprehensive explanation of the project’s workflow, structure, and setup instructions.  
+- Details the purpose of each file and module.  
+- Explains contributor responsibilities and collaboration approach.  
+-Done by: Aina Oluwafisayo David — 23/0799*  
+
+
+
+ Technologies Used
+- Frontend: HTML, CSS  
+-  Backend: PHP  
+-  Database: MySQL  
+- Version Control: Git & GitHub  
+
