@@ -1,0 +1,78 @@
+body {
+   Font-family: ‘Segoe UI’, Tahoma, Geneva, Verdana, sans-serif;
+  Background-color: #f0f4f8;
+  Color: #333;
+  Margin: 0;
+  Padding: 20px;
+}
+
+Header {
+  Background-color: #007bff;
+  Color: white;
+  Padding: 15px;
+  Text-align: center;
+  Font-size: 24px;
+  Font-weight: bold;
+  Border-radius: 5px;
+}
+
+.container {
+  Background-color: white;
+  Padding: 30px;
+  Border-radius: 10px;
+  Box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  Max-width: 1000px;
+  Margin: 30px auto;
+}
+
+H2 {
+  Color: #007bff;
+  Margin-bottom: 20px;
+}
+
+Form label {
+  Display: block;
+  Margin-top: 15px;
+  Font-weight: 600;
+}
+
+Form input[type=”text”],
+Form select {
+  Width: 100%;
+  Padding: 10px;
+  Margin-top: 5px;
+  Border: 1px solid #ccc;
+  Border-radius: 5px;
+}
+
+Form input[type=”submit”] {
+  Background-color: #28a745;
+  Color: white;
+  Border: none;
+Padding: 10px 20px;
+  Margin-top: 20px;
+  Border-radius: 5px;
+  Cursor: pointer;
+  Transition: Background-color 0.3s;
+}
+
+Form input[type=”submit”]:hover {
+  Background-color: #218838;
+}
+
+Table {
+  Width: 100%;
+  Border-collapse: collapse;
+  Margin-top: 30px;
+}
+
+Th, td {
+  Padding: 12px;
+  Border: 1px solid #ddd;
+  Text-align: left;
+}
+
+Th {
+  Background-color: #007bff;
+  Color: white;
+}
